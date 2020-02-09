@@ -101,9 +101,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a3-common/proprietary/lib/libalgobsx.so:system/lib/libalgobsx.so
 
 ### SEC RIL
-PRODUCT_COPY_FILES += \
-    vendor/samsung/a3-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/a3-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so
+# PRODUCT_COPY_FILES += \
+#     vendor/samsung/a3-common/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+#     vendor/samsung/a3-common/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so
 
 ### QCOM FRAMEWORK
 PRODUCT_COPY_FILES += \
